@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(../img/bg-main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-card {
+  max-width: 420px;
+  margin-top: 3rem;
+  background-image: url("../img/bg-card.png");
+}
+
+@media screen and (min-width: 1281px) {
+  .wrapper-spin {
+    width: 50%;
+  }
+
+  .login-wrapper {
+    width: 50%;
+  }
+
+  .body-spin {
+    height: 400px;
+  }
+
+  .input_spin {
+    width: 100%;
+    margin-top: 12px;
+    place-self: center;
+  }
+
+  #val-1 img,
+  #val-2 img,
+  #val-3 img,
+  #val-4 img,
+  #val-5 img,
+  #val-6 img,
+  #val-7 img,
+  #val-8 img {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1281px) {
+  .wrapper-spin {
+    width: 55%;
+  }
+
+  .login-wrapper {
+    width: 75%;
+  }
+
+  .body-spin {
+    height: 450px;
+  }
+
+  .input_spin {
+    width: 100%;
+    margin-top: 12px;
+    place-self: center;
+  }
+
+  #val-1 img,
+  #val-2 img,
+  #val-3 img,
+  #val-4 img,
+  #val-5 img,
+  #val-6 img,
+  #val-7 img,
+  #val-8 img {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 769px) {
+  .wrapper-spin {
+    width: 65%;
+  }
+
+  .body-spin {
+    height: 350px;
+  }
+
+  .input_spin {
+    width: 100%;
+    margin-top: 12px;
+    place-self: center;
+  }
+
+  #val-1 img,
+  #val-2 img,
+  #val-3 img,
+  #val-4 img,
+  #val-5 img,
+  #val-6 img,
+  #val-7 img,
+  #val-8 img {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 426px) {
+  .wrapper-spin {
+    width: 85%;
+  }
+
+  .body-spin {
+    height: 300px;
+  }
+
+  .input_spin {
+    width: 100%;
+    margin-top: 12px;
+    place-self: center;
+  }
+
+  #val-1 img,
+  #val-2 img,
+  #val-3 img,
+  #val-4 img,
+  #val-5 img,
+  #val-6 img,
+  #val-7 img,
+  #val-8 img {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 376px) {
+  .wrapper-spin {
+    width: 85%;
+  }
+
+  .body-spin {
+    height: 300px;
+  }
+
+  .input_spin {
+    width: 100%;
+    margin-top: 12px;
+    place-self: center;
+  }
+
+  #val-1 img,
+  #val-2 img,
+  #val-3 img,
+  #val-4 img,
+  #val-5 img,
+  #val-6 img,
+  #val-7 img,
+  #val-8 img {
+    width: 90%;
+  }
+}

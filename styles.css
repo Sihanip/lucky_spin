@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1e1e1e;
+    color: white;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 60%;
+    margin: 30px auto;
+}
+.item {
+    border: 3px solid #ffd700;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.item:hover {
+    transform: scale(1.1);
+}
+.item img {
+    width: 100%;
+    display: block;
+}
